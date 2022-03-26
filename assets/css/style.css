@@ -615,7 +615,7 @@ a{
     margin: 0 auto;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-    left: 40px;
+    left: 70px;
   }
   .hamburger-menu span {
     display: block;
@@ -733,7 +733,7 @@ a{
     }
 
     .sticky {
-        padding: 10px 0px 10px 0px;
+        padding: 10px 5px 10px 20px;
       }
 
     .hero-heading p{
