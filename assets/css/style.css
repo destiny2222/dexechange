@@ -732,6 +732,10 @@ a{
         margin:0  0;
     }
 
+    .sticky {
+        padding: 10px 0px 10px 0px;
+      }
+
     .hero-heading p{
         font-size: 12px;
     }
