@@ -12,14 +12,14 @@ body{
 
 
 :root{
-    --color-white:#fff;
+    --color-white:rgb(255, 255, 255);
     --color-black:#000;
-    --background:#3E1387;
+    --background:#2e8713;
     --background-2:#F1F5FC;
     --background-3:#E2E9F8;
-    --btn-register:#BD09FF;
-    --color-2:#431fb1;
-    --color-5:#643FD8;
+    --btn-register:#fffb09;
+    --color-2:#1fb132;
+    --color-5:#3fd898;
     --color-3:#7A7A7A;
     --color-4:#4F5877;
     --padding:50px 30px;
@@ -157,7 +157,7 @@ a{
 }
 
 .digital-platform p{
-    color: var(--color-2);
+    color: var(--color-black);
     font-weight: 400;
     font-size: 20px;
     font-family: GT Walsheim Pro;
@@ -207,7 +207,7 @@ a{
     font-size: 16px;
     text-transform: capitalize;
     letter-spacing: 0.5px;
-    color: var(--color-2);
+    color: var(--color-4);
 }
 
 #we-trade{
@@ -326,7 +326,7 @@ a{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     background-color: var(--btn-register);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 
@@ -342,6 +342,8 @@ a{
 
 .about-image{
     background: url('../image/slide3.jpg')no-repeat center/cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.59);
     height: 60vh;
 }
 
@@ -431,7 +433,7 @@ a{
 }
 
 .easy-platform,  .support-card{
-    background-color:var(--color-5);
+    background-color:var(--background);
     color: var(--color-white);
 
 }
@@ -533,6 +535,11 @@ a{
 
 .footer-logo{
     padding-bottom: 10px;
+    
+}
+
+.footer-logo h2 a{
+    color: var(--color-2);
 }
 
 .footer-top .footer-logo img{
@@ -544,7 +551,7 @@ a{
     padding: 5px  0px;
 }
 
-.footer-fast-link li a{
+.footer-fast-link  a{
     color: var(--color-black);
     /* font-size:20px; */
     font-weight: 400;
@@ -571,7 +578,7 @@ a{
     padding:2px 0 0 0;
     text-decoration: none;
     text-align: center;
-    color:var(--color-white);
+    color:var(--color-black);
     font-size: 20px;
     font-weight: normal;
     line-height: 2em;
